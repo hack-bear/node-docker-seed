@@ -1,0 +1,8 @@
+docker run  \
+  -d \
+  --name "dev-server" \
+  -p 49160:8080 \
+  -e "APP=index.js" \
+  -e "NODE_ENV=development" \
+  -v $(pwd):/var/www/example.com/api \
+  benben/node-dev;

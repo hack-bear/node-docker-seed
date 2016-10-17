@@ -1,0 +1,27 @@
+https://cnodejs.org/topic/53f494d9bbdaa79d519c9a4a
+
+安装virtual box
+
+安装homebrew
+
+brew install boot2docker
+
+boot2docker init
+boot2docker start
+$(boot2docker shellinit)
+
+docker search
+
+docker pull
+
+docker run
+
+docker stop
+
+docker exec -it container_name /bin/bash
+
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+https://www.airpair.com/node.js/posts/getting-started-with-docker-for-the-nodejs-dev
+
+http://schempy.com/2015/09/17/docker_nodejs_using_host_volumes/
